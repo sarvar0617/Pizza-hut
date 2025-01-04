@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oregano:ital@0;1&family=Oswald:wght@200..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Schoolbell&display=swap");
+/* birinchi qism boshi */
+.first-section {
+  background-image: url(/images/first-backround.png);
+  object-fit: cover;
+  height: 91.1vh;
+  background-repeat: no-repeat;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.first-container {
+  display: flex;
+  max-width: 1540px;
+  margin: auto;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.left-section {
+  display: flex;
+  flex-direction: column;
+  height: 504px;
+
+  justify-content: space-between;
+  color: white;
+}
+.right-section img {
+  width: 100%;
+}
+.top-info h1 {
+  font-size: 80px;
+}
+.offer-text {
+  font-family: Oregano;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.offer-text span {
+  color: #ffd43a;
+}
+.order-btn {
+  width: 212.3px;
+  height: 65px;
+  border-radius: 9px;
+  background-color: #ef294c;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+.order-btn:hover {
+  background-color: #ff002f;
+}
+.subscribe-container {
+  width: 100%;
+  max-width: 500px;
+}
+.subscribe-form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: white;
+  padding: 6px;
+  border-radius: 9999px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  padding-left: 12px;
+  gap: 8px;
+}
+
+.plane-icon {
+  width: 16px;
+  height: 16px;
+  color: #666;
+}
+
+.email-input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  padding: 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+.email-input::placeholder {
+  color: #666;
+}
+
+.subscribe-button {
+  background-color: #ee3c4c;
+  color: white;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 9999px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.subscribe-button:hover {
+  background-color: #d63545;
+}
+.circle {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  background-color: #ffd43a;
+}
+/* birinchi qism oxiri */
+/* ikkinchi qism boshi */
+.second-section {
+  height: 571px;
+  display: grid;
+  font-family: Oswald;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 405px);
+  grid-template-rows: auto;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  gap: 10px;
+}
+.first-card {
+  background-image: url(/images/pizza.png);
+  background-repeat: no-repeat;
+  height: 331px;
+  color: white;
+  padding-left: 30px;
+  padding-top: 10px;
+  background-size: 100%;
+   
+
+}
+.second-card {
+  background-image: url(/images/free.png);
+  background-repeat: no-repeat;
+  height: 331px;
+  color: white;
+  padding-left: 30px;
+  padding-top: 10px;
+  justify-content: center;
+  background-size: 100%;
+
+}
+.third-card {
+  background-image: url(/images/chikken.png);
+  background-repeat: no-repeat;
+  height: 331px;
+  color: white;
+  padding-left: 30px;
+  padding-top: 10px;
+  background-size: 100% ;
+
+   
+
+}
+
+.third-card h1,
+.first-card h1 {
+  font-size: 38px;
+  width: 178px;
+}
+.yellow-p {
+  font-size: 18px;
+  color: #ffc222;
+}
+.small-p {
+  font-size: 14px;
+}
+.small-p span {
+  font-size: 26px;
+  color: #ffc222;
+}
+.order-p {
+  font-size: 17px;
+}
+.week-p {
+  font-size: 18px;
+}
+.french {
+  font-size: 40px;
+}
+.order-btn-yellow {
+  padding: 18px;
+  border-radius: 9px;
+  background-color: #ffc222;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 18px;
+}
+.order-btn-yellow:hover {
+  background-color: #b38000;
+}
+/* ikkinchi qism oxiri */
+
+@media (min-width: 769px) and (max-width: 1371px) {
+  .top-info h1 {
+    font-size: 50px;
+  }
+  .left-section {
+    height: 400px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 ustun */
+    grid-template-rows: repeat(1, auto); /* 2 qator */
+    gap: 10px;
+    margin: 50px auto;
+  }
+  .first-card {
+    max-width: 405px;
+    margin: auto;
+    width: 100%;
+  }
+  .second-card {
+    max-width: 405px;
+    margin: auto;
+    width: 100%;
+  }
+  .third-card {
+    max-width: 405px;
+    margin: auto;
+    width: 100%;
+    grid-column: 1 / 3;
+  }
+}
+@media (max-width: 768px) {
+  .top-info h1 {
+    font-size: 50px;
+  }
+  .first-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .top-info {
+    text-align: center;
+  }
+  .offer-text {
+    text-align: center;
+  }
+  .left-section {
+    height: 600px;
+    align-items: center;
+  }
+  .right-section img {
+    display: none;
+  }
+  .grid-container {
+    grid-template-columns: 70%;
+  }
+  .third-card h1,
+  .first-card h1 {
+    font-size: 25px;
+    width: 178px;
+  }
+  .yellow-p {
+    font-size: 14px;
+  }
+  .small-p {
+    font-size: 14px;
+  }
+  .small-p span {
+    font-size: 26px;
+  }
+  .order-p {
+    font-size: 17px;
+  }
+  .week-p {
+    font-size: 16px;
+  }
+  .french {
+    font-size: 25px;
+  }
+  .order-btn-yellow {
+    padding: 14px;
+    font-size: 18px;
+  }
+}
