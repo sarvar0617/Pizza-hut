@@ -513,6 +513,7 @@
   .foods-hot{
     display: grid;
     grid-template-columns: repeat(1, auto);
+    margin-bottom: 0;
    }
    .menu-btn{
     display: grid;
@@ -523,5 +524,8 @@
    }
    .menu-btn a{
     text-align: center;
+   }
+   .fourth-section{
+    margin: 10px 0px 0px 0px;
    }
 }
