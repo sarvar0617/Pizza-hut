@@ -72,10 +72,7 @@ i {
   }
 }
 @media (max-width: 768px) {
-  .grid-container{
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
+
   .navbar-list {
     display: none;
   }
