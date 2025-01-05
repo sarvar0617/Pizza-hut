@@ -149,8 +149,6 @@
   padding-left: 30px;
   padding-top: 10px;
   background-size: 100%;
-   
-
 }
 .second-card {
   background-image: url(/images/free.png);
@@ -161,7 +159,6 @@
   padding-top: 10px;
   justify-content: center;
   background-size: 100%;
-
 }
 .third-card {
   background-image: url(/images/chikken.png);
@@ -170,10 +167,7 @@
   color: white;
   padding-left: 30px;
   padding-top: 10px;
-  background-size: 100% ;
-
-   
-
+  background-size: 100%;
 }
 
 .third-card h1,
@@ -293,7 +287,25 @@
     font-size: 25px;
   }
   .order-btn-yellow {
-    padding: 14px;
+    padding: 10px;
     font-size: 18px;
+  }
+  .second-section {
+    line-height: 44px !important;
+  }
+  .first-card {
+    height: 204px !important;
+    padding-left: 12px !important;
+    padding-top: 0 !important;
+  }
+  .second-card {
+    height: 204px !important;
+    padding-left: 12px !important;
+    padding-top: 0 !important;
+  }
+  .third-card {
+    height: 204px !important;
+    padding-left: 12px !important;
+    padding-top: 0 !important;
   }
 }
