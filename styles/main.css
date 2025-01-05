@@ -242,6 +242,7 @@
 .green-letter {
   color: #00a149;
   font-weight: 700;
+  font-size: 20px;
 }
 .about-statistic h1 {
   font-family: Oswald;
@@ -289,6 +290,7 @@
   flex-direction: column;
   gap: 40px;
   padding-top: 100px;
+  margin: 10px auto 0px;
 }
 .menu-btn a {
   width: 153.3px;
@@ -328,6 +330,70 @@
 
 /* turtinchi qism oxiri */
 
+/* bechinchi qism boshi */
+.fifth-section {
+  font-family: Oswald;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.fifth-section img {
+  width: 100%;
+  height: 100%;
+}
+.path-two {
+  display: flex;
+}
+.path-three {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+/* beshinchi qism oxiri */
+/* oltinchi qism boshi */
+
+.sixth-section {
+  font-family: Oswald;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.father-container {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px dashed rgba(0, 0, 0, 0.336);
+  border-radius: 13px;
+  max-width: 1290px;
+  height: 705px;
+  align-items: center;
+  gap: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.about-sixth {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.mother-container p {
+  color: #5c5c5b;
+  font-size: 17px;
+}
+.food-menu {
+  font-size: 60px;
+  font-weight: 600;
+}
+.mother-container {
+  max-width: 587px;
+  height: 127px;
+  border-bottom: 1px dashed black;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.price {
+  color: #ffc222;
+}
+/* oltinchi qism oxiri */
 @media (min-width: 769px) and (max-width: 1371px) {
   .top-info h1 {
     font-size: 50px;
@@ -373,17 +439,20 @@
     width: 500px;
     margin-right: 20px;
   }
-  .fourth-section{
+  .fourth-section {
     gap: 10px;
     padding-top: 10px;
   }
-.foods-hot{
- display: grid;
- grid-template-columns: repeat(2, auto);
-}
-.title-foods{
+  .foods-hot {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
+  .title-foods {
     font-size: 40px;
     padding-bottom: 25px;
+  }
+.mother-container p{
+    font-size: 16px;
 }
 }
 @media (max-width: 768px) {
@@ -495,8 +564,7 @@
   .green-letter {
     padding-left: 20px;
   }
-  .h-line {
-  }
+
   .statistic {
     padding: 0 20px;
     max-width: 768px;
@@ -507,25 +575,30 @@
   .statistic p {
     font-size: 14px;
   }
-  .fourth-section{
+  .fourth-section {
     height: auto;
   }
-  .foods-hot{
+  .foods-hot {
     display: grid;
     grid-template-columns: repeat(1, auto);
     margin-bottom: 0;
-   }
-   .menu-btn{
+  }
+  .menu-btn {
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 20px;
     align-items: center;
     justify-content: center;
-   }
-   .menu-btn a{
+  }
+  .menu-btn a {
     text-align: center;
-   }
-   .fourth-section{
-    margin: 10px 0px 0px 0px;
-   }
+  }
+  .fifth-section {
+    display: none;
+  }
+.father-container{
+    flex-direction: column;
+    height: 1075px;
+    gap: 0;
+}
 }
