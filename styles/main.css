@@ -308,4 +308,12 @@
     padding-left: 12px !important;
     padding-top: 0 !important;
   }
+  .subscribe-button{
+    padding: 12px 6px;
+  }
+  .subscribe-container{
+    max-width: 330px;
+    width: 100%;
+
+  }
 }
