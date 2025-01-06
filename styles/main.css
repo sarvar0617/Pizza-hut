@@ -660,6 +660,22 @@
     text-align: center;
 }
 /* on birinchi qism oxiri */
+.long-photo{
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    justify-content: center;
+}
+.long-photo img{
+width: 100%;
+height: auto;
+}
+ /* footer qismiiiiiiiiiiiiiiiiii*/ 
+ .footer{
+  background-color: #F5F8FD;
+    height: 673.61px;
+ }
+ /* footer qismiiiiiiiiiiiiiiiiii*/ 
 @media (min-width: 769px) and (max-width: 1371px) {
   .top-info h1 {
     font-size: 50px;
@@ -1016,5 +1032,8 @@
   }
   .burger{
     padding-top: 50px;
+  }
+  .long-photo{
+    display: none;
   }
 }
