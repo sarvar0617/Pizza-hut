@@ -431,9 +431,9 @@
   flex-direction: column;
   justify-content: center;
 }
-.right-eighth img{
-width: 100%;
-height: auto;
+.right-eighth img {
+  width: 100%;
+  height: auto;
 }
 .pink-p {
   font-family: Oswald;
@@ -448,65 +448,218 @@ height: auto;
   line-height: 65px;
   padding-bottom: 155px;
 }
-.about-eighth span{
-    color: #F3274C;
+.about-eighth span {
+  color: #f3274c;
 }
-.long-p{
-    color: #5C5C5B;
-    font-size: 17px;
+.long-p {
+  color: #5c5c5b;
+  font-size: 17px;
 }
-.two-opinion{
-    display: flex;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    gap: 10px;
+.two-opinion {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  gap: 10px;
 }
-.first-opinion{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.first-opinion {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
-.first-opinion p{
-    color: #212121;
-    font-size: 17px;
+.first-opinion p {
+  color: #212121;
+  font-size: 17px;
 }
-.second-opinion p{
-    color: #212121;
-    font-size: 17px;
+.second-opinion p {
+  color: #212121;
+  font-size: 17px;
 }
-.second-opinion{
-    display: flex;
-    align-items: center;
-    gap: 15px;
+.second-opinion {
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
-.bottom-eighth{
-    display: flex;
-    gap: 20px;
+.bottom-eighth {
+  display: flex;
+  gap: 20px;
 }
-.bottom-eighth a{
-    width: 209.34px;
-height: 65.5px;
-background-color: #F3274C;
-color: white;
-text-decoration: none;
-display: flex;
-justify-content: center;
-align-items: center;
-border-radius: 9px;
-font-size: 17px;
-font-weight: 600;
+.bottom-eighth a {
+  width: 209.34px;
+  height: 65.5px;
+  background-color: #f3274c;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+  font-size: 17px;
+  font-weight: 600;
 }
-.bottom-eighth a:hover{
-    background-color: #b80b2b;
+.bottom-eighth a:hover {
+  background-color: #b80b2b;
 }
-.bottom-eighth h1{
-    font-size: 16px;
+.bottom-eighth h1 {
+  font-size: 16px;
 }
-.span-h1{
-color: #FFC222;
+.span-h1 {
+  color: #ffc222;
 }
 /* sakkizinchi qism oxiri */
+/* tuqqizinchi qism boshi */
+.ninth-section {
+  font-family: Oswald;
+  background-color: #f4f1ea;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: 150px;
+}
+.about-serve {
+  font-size: 60px;
+}
+.three-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.three-cards div {
+  max-width: 414px;
+  width: 100%;
+  height: 259.39px;
+  border-radius: 17px;
+  border: 1px rgba(0, 0, 0, 0.226) dashed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.three-cards div:hover {
+  background-color: white;
+  border: none;
+}
+.three-cards p {
+  color: #5c5c5b;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text-ninth {
+  text-align: center;
+}
+/* tuqqizinchi qism oxiri */
+/* oninchi qism boshi */
+.tenth-section {
+  font-family: Oswald;
+  background-image: url(/images/Image+Background+Shadow.png);
+  padding-top: 100px;
+}
+.mother-tenth {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.right-tenth {
+  width: 772px;
+  height: 415.25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-dinner {
+  max-width: 739px;
+  width: 100%;
+  height: 132.6px;
+  font-size: 34px;
+  line-height: 44px;
+}
+.hover-animation {
+  width: 146px;
+  height: 41px;
+  border: 1px #5c5c5be5 dashed;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #5c5c5b;
+  cursor: pointer;
+}
+.dot:hover {
+  background-color: green;
+  transform: scale(2);
+}
+.founder {
+  font-size: 29px;
+}
+.yellow-h1-tenth {
+  color: #ffc222;
+  font-size: 20px;
+}
 
+/* oninchi qism oxiri */
+/* on birinchi qism boshi */
+.eleventh-section{
+    font-family: Oswald;
+}
+.burger-menu{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.container-card{
+    max-width: 414px;
+    width: 100%;
+    height: auto; 
+    height: 605.78px;
+    border-radius: 16px;
+    border: 1px solid black;
+}
+.burger-menu hr{
+    width: 90%;
+}
+.container-card img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 16px 16px 0 0;
+}
+.time{
+    display: flex;
+    gap: 20px;
+    padding-left: 40px;
+}
+.bottom-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.bottom-card hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.update-burger{
+    font-size: 60px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.burger{
+    text-align: center;
+}
+/* on birinchi qism oxiri */
 @media (min-width: 769px) and (max-width: 1371px) {
   .top-info h1 {
     font-size: 50px;
@@ -567,10 +720,10 @@ color: #FFC222;
   .mother-container p {
     font-size: 16px;
   }
-  .eighth-section{
+  .eighth-section {
     gap: 15px;
   }
-  .left-eighth{
+  .left-eighth {
     justify-content: start;
     padding-left: 20px;
   }
@@ -579,33 +732,49 @@ color: #FFC222;
     align-items: center;
   } */
 
-  .about-eighth{
+  .about-eighth {
     font-size: 40px;
     line-height: 50px;
     padding-bottom: 0;
     height: 110px;
   }
-  .first-opinion h1{
-font-size: 20px;
-  }
-  .second-opinion h1{
+  .first-opinion h1 {
     font-size: 20px;
-      }
-      .first-opinion p{
-        font-size: 14px;
-    }
-    .second-opinion p{     
-        font-size: 14px;
-    }
-    .bottom-eighth h1{
-        font-size: 14px;
-    }
-    .long-p{
-        font-size: 14px;
-    }
+  }
+  .second-opinion h1 {
+    font-size: 20px;
+  }
+  .first-opinion p {
+    font-size: 14px;
+  }
+  .second-opinion p {
+    font-size: 14px;
+  }
+  .bottom-eighth h1 {
+    font-size: 14px;
+  }
+  .long-p {
+    font-size: 14px;
+  }
+  .about-dinner {
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+  }
+  .right-tenth {
+    gap: 20px;
+    justify-content: center;
+  }
+  .star {
+    padding-top: 50px;
+  }
+.bottom-card h1{
+    font-size: 20px
 }
-
-
+.bottom-card p{
+    font-size: 14px;
+}
+}
 
 @media (max-width: 768px) {
   .top-info h1 {
@@ -762,13 +931,13 @@ font-size: 20px;
   .chap {
     display: none;
   }
-  .eighth-section{
+  .eighth-section {
     gap: 0;
   }
-  .right-eighth img{
-   display: none;
+  .right-eighth img {
+    display: none;
   }
-  .left-eighth{
+  .left-eighth {
     max-width: 768px;
     width: 100%;
     align-items: center;
@@ -776,34 +945,76 @@ font-size: 20px;
     padding-left: 20px;
     padding-right: 20px;
   }
-  .first-opinion{
+  .first-opinion {
     flex-direction: column;
   }
-  .second-opinion{
+  .second-opinion {
     flex-direction: column;
   }
-  .about-eighth{
-line-height: 45px;
-font-size: 35px;
-height: 110px;
-padding-bottom: 0;
-max-width: 476px;
-width: 100%;
+  .about-eighth {
+    line-height: 45px;
+    font-size: 35px;
+    height: 110px;
+    padding-bottom: 0;
+    max-width: 476px;
+    width: 100%;
   }
-  .bottom-eighth{
+  .bottom-eighth {
     flex-direction: column;
     align-items: center;
   }
-  .first-opinion h1{
+  .first-opinion h1 {
     font-size: 18px;
   }
-  .second-opinion h1{
+  .second-opinion h1 {
     font-size: 18px;
   }
-  .first-opinion p{
+  .first-opinion p {
     font-size: 14px;
   }
-  .second-opinion p{
+  .second-opinion p {
     font-size: 14px;
+  }
+  .three-cards {
+    flex-direction: column;
+  }
+  .about-serve {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .mother-tenth {
+    flex-direction: column;
+  }
+  .right-tenth {
+    max-width: 768px;
+    width: 100%;
+    text-align: center;
+    height: auto;
+  }
+  .about-dinner {
+    max-width: 768px;
+    width: 100%;
+    font-size: 25px;
+    height: auto;
+  }
+  .left-tenth {
+    display: flex;
+    justify-content: center;
+  }
+  .left-tenth img {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .burger-menu{
+    flex-direction: column;
+    align-items: center;
+  }
+  .update-burger{
+    font-size: 30px;
+  }
+  .burger{
+    padding-top: 50px;
   }
 }
